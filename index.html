@@ -35,6 +35,8 @@
     <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/responsive.scss.css" rel="stylesheet" type="text/css" />
     <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/stylesheet.scss.css" rel="stylesheet" type="text/css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.0.3/jquery.mmenu.all.css" rel="stylesheet" type="text/css" />
+    <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/bpr-products-module.css" rel="stylesheet" type="text/css" />
+    <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/mobile_chat.scss.css" rel="stylesheet" type="text/css" />
     <!-- ================= Fonts ================== -->
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
 </head>
@@ -77,7 +79,7 @@
                                                 <div class="cart_count_info bg-success">Giỏ hàng hiện có <strong>1</strong> sản phẩm</div>
                                                 <ul class="list-item-cart">
                                                     <li class="item productid-20807524">
-                                                        <a class="product-image" href="/giay-vai-unisex-cot-day-tuvi-s" title="Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh"><img alt="Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh" src="//bizweb.dktcdn.net/thumb/small/100/333/279/products/5-1-1.jpg"></a>
+                                                        <a class="product-image" href="/giay-vai-unisex-cot-day-tuvi-s" title="Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh"><img alt="Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh" src="images/thumb/small/products/5-1-1.jpg"></a>
                                                         <div class="detail-item">
                                                             <div class="product-details">
                                                                 <p class="product-name"><a href="/giay-vai-unisex-cot-day-tuvi-s" title="Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh">Giày Vải Unisex Cột Dây Tuvi's - 35 / Xanh</a></p>
@@ -85,7 +87,10 @@
                                                             </div>
                                                             <div class="product-details-bottom">
                                                                 <span class="price">275.000₫</span>
-                                                                <div class="quantity-select qty_drop_cart"><input class="variantID" type="hidden" name="variantId" value="20807524"><button onclick="var result = document.getElementById('qty20807524'); var qty20807524 = result.value; if( !isNaN( qty20807524 ) &amp;&amp; qty20807524 > 1 ) result.value--;return false;" class="btn_reduced reduced items-count btn-minus" disabled="" type="button">–</button><input type="text" maxlength="3" min="1" class="input-text number-sidebar qty20807524" id="qty20807524" name="Lines" size="4" value="1" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;"><button onclick="var result = document.getElementById('qty20807524'); var qty20807524 = result.value; if( !isNaN( qty20807524 )) result.value++;return false;" class="btn_increase increase items-count btn-plus" type="button">+</button></div>
+                                                                <div class="quantity-select qty_drop_cart">
+                                                                    <input class="variantID" type="hidden" name="variantId" value="20807524">
+                                                                    <button onclick="var result = document.getElementById('qty20807524'); var qty20807524 = result.value; if( !isNaN( qty20807524 ) &amp;&amp; qty20807524 > 1 ) result.value--;return false;" class="btn_reduced reduced items-count btn-minus" disabled="" type="button">–</button>
+                                                                    <input type="text" maxlength="3" min="1" class="input-text number-sidebar qty20807524" id="qty20807524" name="Lines" size="4" value="1" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;"><button onclick="var result = document.getElementById('qty20807524'); var qty20807524 = result.value; if( !isNaN( qty20807524 )) result.value++;return false;" class="btn_increase increase items-count btn-plus" type="button">+</button></div>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -131,7 +136,7 @@
                         </div>
                         <div
                             class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-2 col-lg-2 col-lg-offset-0 col-hg-2 logo">
-                            <a title="Libra Sport" href="/">
+                            <a title="Libra Sport" href="index.html">
                                 <img class="img-responsive" src="images/logo.png" alt="Logo">
                             </a>
                         </div>
@@ -149,84 +154,83 @@
                             </div>
                         </div>
                         <div class="hidden-xs hidden-sm col-md-12 col-lg-12 col-hg-12 menu_pc">
-                            <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" type="text/javascript"></script> -->
                             <nav>
                                 <ul id="nav" class="nav">
                                     <li class="nav-item  has-mega">
-                                        <a href="/collections/all" class="nav-link">Sản phẩm <i class="fa fa-angle-down"></i></a>
+                                        <a href="products.html" class="nav-link">Sản phẩm <i class="fa fa-angle-down"></i></a>
                                         <div class="mega-content">
                                             <ul>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/frontpage">
+                                                        <a class="mega-item-url" href="index.html">
                                                             <span>Trang chủ</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/san-pham-moi">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Sản phẩm mới</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/san-pham-noi-bat">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Sản phẩm nổi bật</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/san-pham-khuyen-mai">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Sản phẩm khuyến mãi</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/nam">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Nam</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/nu">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Nữ</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/tre-em">
+                                                        <a class="mega-item-url" href="products.html">
                                                             <span>Trẻ em</span>
                                                         </a>
                                                     </h4>
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/thuong-hieu">
+                                                        <a class="mega-item-url" href="brands.html">
                                                             <span>Thương hiệu</span>
                                                         </a>
                                                     </h4>
                                                     <ul class="mega-list">
 
                                                         <li class="mega-list-item">
-                                                            <a href="/adidas">
+                                                            <a href="brands.html">
                                                                 <span>Adidas</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/nike">
+                                                            <a href="brands.html">
                                                                 <span>Nike</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/new-balance">
+                                                            <a href="brands.html">
                                                                 <span>New Balance</span>
                                                             </a>
                                                         </li>
@@ -235,32 +239,32 @@
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/phu-kien">
+                                                        <a class="mega-item-url" href="accessories.html">
                                                             <span>Phụ kiện</span>
                                                         </a>
                                                     </h4>
                                                     <ul class="mega-list">
 
                                                         <li class="mega-list-item">
-                                                            <a href="/nam">
+                                                            <a href="accessories.html">
                                                                 <span>Nam</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/nu">
+                                                            <a href="accessories.html">
                                                                 <span>Nữ</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/tre-em">
+                                                            <a href="accessories.html">
                                                                 <span>Trẻ em</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/thuong-hieu">
+                                                            <a href="accessories.html">
                                                                 <span>Thương hiệu</span>
                                                             </a>
                                                         </li>
@@ -269,32 +273,32 @@
                                                 </li>
                                                 <li class="mega-item">
                                                     <h4 class="mega-item-title">
-                                                        <a class="mega-item-url" href="/thoi-trang">
+                                                        <a class="mega-item-url" href="fashions.html">
                                                             <span>Thời trang</span>
                                                         </a>
                                                     </h4>
                                                     <ul class="mega-list">
 
                                                         <li class="mega-list-item">
-                                                            <a href="/nam">
+                                                            <a href="fashions.html">
                                                                 <span>Nam</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/nu">
+                                                            <a href="fashions.html">
                                                                 <span>Nữ</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/tre-em">
+                                                            <a href="fashions.html">
                                                                 <span>Trẻ em</span>
                                                             </a>
                                                         </li>
 
                                                         <li class="mega-list-item">
-                                                            <a href="/thuong-hieu">
+                                                            <a href="fashions.html">
                                                                 <span>Thương hiệu</span>
                                                             </a>
                                                         </li>
@@ -302,13 +306,6 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <script type="text/javascript">
-                                            setTimeout(function () {
-                                                $('.mega-content > ul').masonry({
-                                                    itemSelector: '.mega-item'
-                                                });
-                                            }, 500);
-                                        </script>
                                     </li>
 
                                     <li class="nav-item ">
@@ -411,10 +408,10 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item ">
-                                        <a href="/lien-he" class="nav-link">Liên hệ <i class="fa fa-angle-down"></i></a>
+                                        <a href="contact.html" class="nav-link">Liên hệ <i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item-lv2">
-                                                <a class="nav-link" href="/huong-dan-su-dung-theme-libra-sport">Hướng dẫn sử dụng theme Libra Sport</a>
+                                                <a class="nav-link" href="guide.html">Hướng dẫn sử dụng theme Libra Sport</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -1605,15 +1602,11 @@
                                     <div class="item">
                                         <div class="article-item article-index article-index___1">
                                             <div class="article-thumbnail">
-                                                <a class="image-hover-3"
-                                                    href="/qualcomm-noi-da-co-bang-chung-cho-thay-apple-an-trom-ma-nguon-va-gui-cho-intel"
-                                                    title="Qualcomm nói đã có bằng chứng cho thấy Apple ăn trộm mã nguồn và gửi cho Intel">
-
-                                                    <img src="//bizweb.dktcdn.net/thumb/large/100/333/279/themes/695197/assets/libra-sport___article.png"
-                                                        data-lazyload="//bizweb.dktcdn.net/thumb/large/100/333/279/articles/7-2.jpg?v=1537979225460"
+                                                <a class="image-hover-3" href="#" title="Qualcomm nói đã có bằng chứng cho thấy Apple ăn trộm mã nguồn và gửi cho Intel">
+                                                    <img src="images/libra-sport___article.png"
+                                                        data-lazyload="images/thumb/large/articles/7-2.jpg"
                                                         class="img-responsive"
                                                         alt="qualcomm-noi-da-co-bang-chung-cho-thay-apple-an-trom-ma-nguon-va-gui-cho-intel" />
-
                                                 </a>
                                                 <div class="article-detail article-detail___datetime">
                                                     <span>26 / 09</span>
@@ -1622,10 +1615,9 @@
                                             </div>
                                             <div class="article-info">
                                                 <h3 class="fw article-title">
-                                                    <a href="/qualcomm-noi-da-co-bang-chung-cho-thay-apple-an-trom-ma-nguon-va-gui-cho-intel"
+                                                    <a href="#"
                                                         title="Qualcomm nói đã có bằng chứng cho thấy Apple ăn trộm mã nguồn và gửi cho Intel">
-                                                        <span>Qualcomm nói đã có bằng chứng cho thấy Apple ăn trộm mã
-                                                            nguồn và gửi cho Intel</span>
+                                                        <span>Qualcomm nói đã có bằng chứng cho thấy Apple ăn trộm mã nguồn và gửi cho Intel</span>
                                                     </a>
                                                 </h3>
                                                 <div class="fw article-summary">
@@ -1635,8 +1627,7 @@
                                                     đã có câu trả lời.......
                                                 </div>
                                                 <div class="fw article-detail article-detail___author">
-                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến
-                                                        Chi</span>
+                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến Chi</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1645,14 +1636,12 @@
                                         <div class="article-item article-index article-index___1">
                                             <div class="article-thumbnail">
                                                 <a class="image-hover-3"
-                                                    href="/9-mau-sneakers-an-tuong-nhat-tai-tuan-le-thoi-trang-xuan-he-2019"
+                                                    href="#"
                                                     title="9 mẫu sneakers ấn tượng nhất tại tuần lễ thời trang xuân hè 2019">
-
-                                                    <img src="//bizweb.dktcdn.net/thumb/large/100/333/279/themes/695197/assets/libra-sport___article.png"
-                                                        data-lazyload="//bizweb.dktcdn.net/thumb/large/100/333/279/articles/6-0.jpg?v=1537843577103"
+                                                    <img src="images/libra-sport___article.png"
+                                                        data-lazyload="images/thumb/large/articles/6-0.jpg"
                                                         class="img-responsive"
                                                         alt="9-mau-sneakers-an-tuong-nhat-tai-tuan-le-thoi-trang-xuan-he-2019" />
-
                                                 </a>
                                                 <div class="article-detail article-detail___datetime">
                                                     <span>25 / 09</span>
@@ -1663,8 +1652,7 @@
                                                 <h3 class="fw article-title">
                                                     <a href="/9-mau-sneakers-an-tuong-nhat-tai-tuan-le-thoi-trang-xuan-he-2019"
                                                         title="9 mẫu sneakers ấn tượng nhất tại tuần lễ thời trang xuân hè 2019">
-                                                        <span>9 mẫu sneakers ấn tượng nhất tại tuần lễ thời trang xuân
-                                                            hè 2019</span>
+                                                        <span>9 mẫu sneakers ấn tượng nhất tại tuần lễ thời trang xuân hè 2019</span>
                                                     </a>
                                                 </h3>
                                                 <div class="fw article-summary">
@@ -1674,8 +1662,7 @@
                                                     kỹ thuật khác nhau, đế giày ......
                                                 </div>
                                                 <div class="fw article-detail article-detail___author">
-                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến
-                                                        Chi</span>
+                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến Chi</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1684,14 +1671,12 @@
                                         <div class="article-item article-index article-index___1">
                                             <div class="article-thumbnail">
                                                 <a class="image-hover-3"
-                                                    href="/5-kieu-giay-the-thao-dep-nhat-tro-thanh-xu-huong-cua-nam-2018"
+                                                    href="#"
                                                     title="5 kiểu giày thể thao đẹp nhất trở thành xu hướng của năm 2018">
-
-                                                    <img src="//bizweb.dktcdn.net/thumb/large/100/333/279/themes/695197/assets/libra-sport___article.png"
-                                                        data-lazyload="//bizweb.dktcdn.net/thumb/large/100/333/279/articles/5-0.jpg?v=1537841939507"
+                                                    <img src="images/libra-sport___article.png"
+                                                        data-lazyload="images/thumb/large/articles/5-0.jpg"
                                                         class="img-responsive"
                                                         alt="5-kieu-giay-the-thao-dep-nhat-tro-thanh-xu-huong-cua-nam-2018" />
-
                                                 </a>
                                                 <div class="article-detail article-detail___datetime">
                                                     <span>25 / 09</span>
@@ -1702,8 +1687,7 @@
                                                 <h3 class="fw article-title">
                                                     <a href="/5-kieu-giay-the-thao-dep-nhat-tro-thanh-xu-huong-cua-nam-2018"
                                                         title="5 kiểu giày thể thao đẹp nhất trở thành xu hướng của năm 2018">
-                                                        <span>5 kiểu giày thể thao đẹp nhất trở thành xu hướng của năm
-                                                            2018</span>
+                                                        <span>5 kiểu giày thể thao đẹp nhất trở thành xu hướng của năm 2018</span>
                                                     </a>
                                                 </h3>
                                                 <div class="fw article-summary">
@@ -1713,8 +1697,7 @@
                                                     giày được thiết kế p......
                                                 </div>
                                                 <div class="fw article-detail article-detail___author">
-                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến
-                                                        Chi</span>
+                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến Chi</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1723,14 +1706,12 @@
                                         <div class="article-item article-index article-index___1">
                                             <div class="article-thumbnail">
                                                 <a class="image-hover-3"
-                                                    href="/he-dieu-hanh-di-dong-pho-bien-nhat-the-gioi-buoc-sang-tuoi-thu-10"
+                                                    href="#"
                                                     title="Hệ điều hành di động phổ biến nhất thế giới bước sang tuổi thứ 10">
-
-                                                    <img src="//bizweb.dktcdn.net/thumb/large/100/333/279/themes/695197/assets/libra-sport___article.png"
-                                                        data-lazyload="//bizweb.dktcdn.net/thumb/large/100/333/279/articles/3-0.jpg?v=1537839619860"
+                                                    <img src="images//libra-sport___article.png"
+                                                        data-lazyload="images//thumb/large/articles/3-0.jpg"
                                                         class="img-responsive"
                                                         alt="he-dieu-hanh-di-dong-pho-bien-nhat-the-gioi-buoc-sang-tuoi-thu-10" />
-
                                                 </a>
                                                 <div class="article-detail article-detail___datetime">
                                                     <span>25 / 09</span>
@@ -1741,8 +1722,7 @@
                                                 <h3 class="fw article-title">
                                                     <a href="/he-dieu-hanh-di-dong-pho-bien-nhat-the-gioi-buoc-sang-tuoi-thu-10"
                                                         title="Hệ điều hành di động phổ biến nhất thế giới bước sang tuổi thứ 10">
-                                                        <span>Hệ điều hành di động phổ biến nhất thế giới bước sang tuổi
-                                                            thứ 10</span>
+                                                        <span>Hệ điều hành di động phổ biến nhất thế giới bước sang tuổi thứ 10</span>
                                                     </a>
                                                 </h3>
                                                 <div class="fw article-summary">
@@ -1752,8 +1732,7 @@
                                                     HTC, được trang bị m......
                                                 </div>
                                                 <div class="fw article-detail article-detail___author">
-                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến
-                                                        Chi</span>
+                                                    <i class="fa fa-pencil" aria-hidden="true"></i><span>Hoàng Tiến Chi</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1774,157 +1753,86 @@
                             <div class="owl-carousel owl-theme owl---brand nav-enable nav-left-right" data-margin="30"
                                 data-nav="true" data-hg-items="8" data-lg-items="6" data-md-items="5" data-sm-items="4"
                                 data-xs-items="3" data-xxs-items="2">
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 1">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___1_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___1_image.jpg"
                                             alt="tieu-de-1">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 2">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___2_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___2_image.jpg"
                                             alt="tieu-de-2">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 3">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___3_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___3_image.jpg"
                                             alt="tieu-de-3">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 4">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___4_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___4_image.jpg"
                                             alt="tieu-de-4">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 5">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___5_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___5_image.jpg"
                                             alt="tieu-de-5">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 6">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___6_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___6_image.jpg"
                                             alt="tieu-de-6">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 7">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___7_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___7_image.jpg"
                                             alt="tieu-de-7">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 8">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___8_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___8_image.jpg"
                                             alt="tieu-de-8">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 9">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___9_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___9_image.jpg"
                                             alt="tieu-de-9">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                                 <div class="item">
                                     <a class="image-hover-3" href="#" title="Tiêu đề 10">
                                         <img class="img-responsive"
-                                            src="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png"
-                                            data-lazyload="//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___10_image.jpg"
+                                            src="images/thumb/medium/index_brand___image.png"
+                                            data-lazyload="images/thumb/medium/index_brand___10_image.jpg"
                                             alt="tieu-de-10">
-                                        <script>
-                                            $(".owl---brand img").error(function () {
-                                                e.preventDefault();
-                                                $(this).attr("src", "//bizweb.dktcdn.net/thumb/medium/100/333/279/themes/695197/assets/index_brand___image.png");
-                                            });
-                                        </script>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -1932,8 +1840,6 @@
             </div>
         </section>
 
-        <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/bpr-products-module.css" rel="stylesheet" type="text/css" />
-        <div class="bizweb-product-reviews-module"></div>
         <section class="section_privacy fw">
             <div class="container">
                 <div class="row">
@@ -1943,7 +1849,7 @@
 
                             <div class="item">
                                 <div class="section_privacy___content"
-                                    style="background: url('//bizweb.dktcdn.net/100/333/279/themes/695197/assets/section_privacy___image__1.png') left center no-repeat">
+                                    style="background: url('images/section_privacy___image__1.png') left center no-repeat">
                                     <h4 class="section_privacy___title">Miễn phí vận chuyển</h4>
                                     <span class="section_privacy___desc hidden-xs">Nội thành Hà Nội, TP. Hồ Chí
                                         Minh</span>
@@ -1952,7 +1858,7 @@
 
                             <div class="item">
                                 <div class="section_privacy___content"
-                                    style="background: url('//bizweb.dktcdn.net/100/333/279/themes/695197/assets/section_privacy___image__2.png') left center no-repeat">
+                                    style="background: url('images/section_privacy___image__2.png') left center no-repeat">
                                     <h4 class="section_privacy___title">Hàng chính hãng</h4>
                                     <span class="section_privacy___desc hidden-xs">Cam kết 100% sản phẩm chính
                                         hãng</span>
@@ -1961,7 +1867,7 @@
 
                             <div class="item">
                                 <div class="section_privacy___content"
-                                    style="background: url('//bizweb.dktcdn.net/100/333/279/themes/695197/assets/section_privacy___image__3.png') left center no-repeat">
+                                    style="background: url('images/section_privacy___image__3.png') left center no-repeat">
                                     <h4 class="section_privacy___title">Đổi trả miễn phí</h4>
                                     <span class="section_privacy___desc hidden-xs">Trong vòng 7 ngày kể từ thời điểm
                                         mua</span>
@@ -1981,7 +1887,7 @@
                         <div class="fw footer-top">
                             <a href="/" title="Libra Sport">
                                 <img class="img-responsive" alt="libra-sport"
-                                    src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/logo.png">
+                                    src="images/logo.png">
                             </a>
                             <div class="footer-top__info">
 
@@ -1994,10 +1900,10 @@
                                         Địa chỉ: Số 3, Lê Thánh Tông, Q. Ngô Quyền, TP. Hải Phòng
                                     </li>
                                     <li>
-                                        Hotline: <a href="tel:19006750">19006750</a>
+                                        Hotline: <a href="tel:0909999999">0909999999</a>
                                     </li>
                                     <li>
-                                        Email: <a href="mailto:support@sapo.vn">support@sapo.vn</a>
+                                        Email: <a href="mailto:someone@someone.vn">someone@someone.vn</a>
                                     </li>
                                 </ul>
                             </div>
@@ -2005,7 +1911,6 @@
                     </div>
                 </div>
                 <div class="row">
-
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 foo-col">
                         <div class="footer-widget">
                             <h4 class="footer-title">
@@ -2118,7 +2023,6 @@
                             </h4>
                             <div class="fw">
                                 <ul class="inline-list social-icons">
-
                                     <li>
                                         <a class="icon-fallback-text txt-facebook hv-bg-facebook hv-bd-facebook"
                                             href="https://www.facebook.com/" rel="nofollow" target="_blank">
@@ -2128,7 +2032,6 @@
 
                                         </a>
                                     </li>
-
                                     <li>
                                         <a class="icon-fallback-text txt-twitter hv-bg-twitter hv-bd-twitter"
                                             href="https://twitter.com/" rel="nofollow" target="_blank">
@@ -2138,7 +2041,6 @@
 
                                         </a>
                                     </li>
-
                                     <li>
                                         <a class="icon-fallback-text txt-google-plus hv-bg-google-plus hv-bd-google-plus"
                                             href="https://plus.google.com/" rel="nofollow" target="_blank">
@@ -2148,7 +2050,6 @@
 
                                         </a>
                                     </li>
-
                                     <li>
                                         <a class="icon-fallback-text txt-youtube hv-bg-youtube hv-bd-youtube"
                                             href="https://www.youtube.com" rel="nofollow" target="_blank">
@@ -2158,7 +2059,6 @@
 
                                         </a>
                                     </li>
-
                                     <li>
                                         <a class="icon-fallback-text txt-instagram hv-bg-instagram hv-bd-instagram"
                                             href="https://www.instagram.com/" rel="nofollow" target="_blank">
@@ -2168,7 +2068,6 @@
 
                                         </a>
                                     </li>
-
                                 </ul>
                             </div>
 
@@ -2178,7 +2077,7 @@
                             <div class="fw subscribe_form">
 
                                 <form
-                                    action="https://bizwebvietnam.us14.list-manage.com/subscribe/post?u=2c7c6c71a3f7804209264395c&amp;id=03cf23682b"
+                                    action="#"
                                     method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                                     target="_blank">
                                     <button class="btn btn-subscribe" name="subscribe" id="subscribe"><i
@@ -2199,28 +2098,21 @@
                 <div class="inner clearfix">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cr-content">
-                            <span>Bản quyền thuộc về <a href="https://libra-team.bizwebvietnam.net" title="libra Team"
-                                    rel="nofollow" target="_blank"><strong>Libra Team</strong></a></span><span
-                                class="hidden-xs"> | </span><span>Cung cấp bởi <a
-                                    href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&utm_source=site_khach_hang&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=site_khach_hang"
-                                    title="Sapo" rel="nofollow" target="_blank"><strong>Sapo</strong></a></span>
+                            <span>Bản quyền thuộc về <a href="https://libra-team.bizwebvietnam.net" title="libra Team" rel="nofollow" target="_blank"><strong>Libra Team</strong></a></span><span class="hidden-xs"> | </span><span>Cung cấp bởi <a href="#" title="HoangNH" rel="nofollow" target="_blank"><strong>HoangNH</strong></a></span>
                         </div>
                     </div>
                 </div>
-
                 <div class="back-to-top"><i class="fa fa-arrow-circle-up"></i></div>
-
             </div>
         </div>
 
-        <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/mobile_chat.scss.css" rel="stylesheet" type="text/css" />
         <section class="mobile_chat hidden-md hidden-lg">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-3 chat-item">
                         <a href="tel:18001091" class="chat-item-url">
                             <div class="chat-item-image">
-                                <img src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/icon_phone.png"
+                                <img src="images/icon_phone.png"
                                     class="img-responsive" alt="goi-dien">
                             </div>
                             <div class="chat-item-text">
@@ -2231,7 +2123,7 @@
                     <div class="col-xs-3 chat-item">
                         <a href="sms:18001091" class="chat-item-url">
                             <div class="chat-item-image">
-                                <img src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/icon_sms.png"
+                                <img src="images/icon_sms.png"
                                     class="img-responsive" alt="nhan-tin">
                             </div>
                             <div class="chat-item-text">
@@ -2242,7 +2134,7 @@
                     <div class="col-xs-3 chat-item">
                         <a href="http://zalo.me/4587655845403518947" class="chat-item-url">
                             <div class="chat-item-image">
-                                <img src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/icon_zalo.png"
+                                <img src="images/icon_zalo.png"
                                     class="img-responsive" alt="chat-zalo">
                             </div>
                             <div class="chat-item-text">
@@ -2253,7 +2145,7 @@
                     <div class="col-xs-3 chat-item">
                         <a href="https://www.messenger.com/t/sapo.vn">
                             <div class="chat-item-image">
-                                <img src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/icon_fb.png"
+                                <img src="images/icon_fb.png"
                                     class="img-responsive" alt="facebook">
                             </div>
                             <div class="chat-item-text">
@@ -2331,7 +2223,6 @@
                     </rect>
                 </svg>
             </div>
-
         </div>
 
         <div class="error-popup awe-popup">
@@ -2772,116 +2663,6 @@
     <script src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/main.js" type="text/javascript"></script>
     <link href="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/sidebar_menu.scss.css" rel="stylesheet" type="text/css" />
     <script src="//bizweb.dktcdn.net/100/333/279/themes/695197/assets/sidebar_menu.js" type="text/javascript"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function ($) {
-            if ($(window).width() >= 768) {
-                SalesPop();
-            }
-        });
-
-        function fisherYates(myArray) {
-            var i = myArray.length,
-                j, temp;
-            if (i === 0) return false;
-            while (--i) {
-                j = Math.floor(Math.random() * (i + 1));
-                temp = myArray[i];
-                myArray[i] = myArray[j];
-                myArray[j] = temp;
-            }
-        }
-        var collection = new Array();
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[0] = "<a href='/giay-sneaker-nam-passo-gtk060' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/7-1-1.jpg?v=1537978389010' alt='Giày Sneaker Nam PASSO GTK060'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-sneaker-nam-passo-gtk060' title='Giày Sneaker Nam PASSO GTK060'>Giày Sneaker Nam PASSO GTK060</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[1] = "<a href='/giay-sneakers-nam-passo-gtk062' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/6-1.jpg?v=1537977914750' alt='Giày Sneakers Nam PASSO GTK062'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-sneakers-nam-passo-gtk062' title='Giày Sneakers Nam PASSO GTK062'>Giày Sneakers Nam PASSO GTK062</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[2] = "<a href='/giay-vai-unisex-cot-day-tuvi-s' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/5-1-1.jpg?v=1537977485000' alt='Giày Vải Unisex Cột Dây Tuvi's'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-vai-unisex-cot-day-tuvi-s' title='Giày Vải Unisex Cột Dây Tuvi's'>Giày Vải Unisex Cột Dây Tuvi's</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[3] = "<a href='/giay-sneaker-nam-gadino' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/4-1.jpg?v=1537975841670' alt='Giày Sneaker Nam Gadino'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-sneaker-nam-gadino' title='Giày Sneaker Nam Gadino'>Giày Sneaker Nam Gadino</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[4] = "<a href='/giay-sneaker-the-thao-unisex-zapas' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/3-1-1.jpg?v=1537975664330' alt='Giày Sneaker Thể Thao Unisex Zapas'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-sneaker-the-thao-unisex-zapas' title='Giày Sneaker Thể Thao Unisex Zapas'>Giày Sneaker Thể Thao Unisex Zapas</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[5] = "<a href='/giay-slip-on-unisex-tuvi-s' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/2-1-1.jpg?v=1537975253817' alt='Giày Slip On Unisex Tuvi's'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-slip-on-unisex-tuvi-s' title='Giày Slip On Unisex Tuvi's'>Giày Slip On Unisex Tuvi's</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[6] = "<a href='/giay-sneaker-the-thao-nam-zapas' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/1-1-1.jpg?v=1537972618473' alt='Giày Sneaker Thể Thao Nam Zapas'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/giay-sneaker-the-thao-nam-zapas' title='Giày Sneaker Thể Thao Nam Zapas'>Giày Sneaker Thể Thao Nam Zapas</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[7] = "<a href='/biti-s-hunter-liteknit-iii-dsm068233reu' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/dsm0682331.jpg?v=1537810965037' alt='Biti's Hunter Liteknit III DSM068233REU'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/biti-s-hunter-liteknit-iii-dsm068233reu' title='Biti's Hunter Liteknit III DSM068233REU'>Biti's Hunter Liteknit III DSM068233REU</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[8] = "<a href='/biti-s-nam-limited-edition-dsm062133den' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/dsm062133den1.jpg?v=1537810962700' alt='Biti's Nam LIMITED EDITION - DSM062133DEN'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/biti-s-nam-limited-edition-dsm062133den' title='Biti's Nam LIMITED EDITION - DSM062133DEN'>Biti's Nam LIMITED EDITION - DSM062133DEN</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[9] = "<a href='/biti-s-cao-cap-nu-hunter-feast-dsw051233dod' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/dsw051233dod1.jpg?v=1537810960040' alt='Biti's Cao Cấp Nữ - Hunter Feast - DSW051233DOD'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/biti-s-cao-cap-nu-hunter-feast-dsw051233dod' title='Biti's Cao Cấp Nữ - Hunter Feast - DSW051233DOD'>Biti's Cao Cấp Nữ - Hunter Feast - DSW051233DOD</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[10] = "<a href='/biti-s-hunter-back-to-school-dsm065033xam' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/dsm065033xam1.jpg?v=1537810957553' alt='Biti's Hunter Back To School DSM065033XAM'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/biti-s-hunter-back-to-school-dsm065033xam' title='Biti's Hunter Back To School DSM065033XAM'>Biti's Hunter Back To School DSM065033XAM</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[11] = "<a href='/tui-du-lich-the-thao-xpak' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/xpakcam.png?v=1537810944827' alt='Túi du lịch thể thao Xpak'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/tui-du-lich-the-thao-xpak' title='Túi du lịch thể thao Xpak'>Túi du lịch thể thao Xpak</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[12] = "<a href='/nike-air-presto-essential-848187-001' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/nikeairprestoessentialden.jpg?v=1537810939807' alt='Nike Air Presto Essential 848187-001'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-air-presto-essential-848187-001' title='Nike Air Presto Essential 848187-001'>Nike Air Presto Essential 848187-001</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[13] = "<a href='/nike-flex-control-mens-898459-004' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/cam.jpg?v=1537810936760' alt='Nike Flex Control Mens 898459-004'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-flex-control-mens-898459-004' title='Nike Flex Control Mens 898459-004'>Nike Flex Control Mens 898459-004</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[14] = "<a href='/nike-tajun-racer-921669-400' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/do.jpg?v=1537810935477' alt='Nike Tajun Racer 921669-400'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-tajun-racer-921669-400' title='Nike Tajun Racer 921669-400'>Nike Tajun Racer 921669-400</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[15] = "<a href='/nike-air-presto-flyknit-ultra-835570-002' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/prestoflyknit1.jpg?v=1537810933573' alt='Nike Air Presto Flyknit Ultra 835570-002'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-air-presto-flyknit-ultra-835570-002' title='Nike Air Presto Flyknit Ultra 835570-002'>Nike Air Presto Flyknit Ultra 835570-002</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[16] = "<a href='/nike-air-max-2017-849559-401' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/airmax1.jpg?v=1537810932137' alt='Nike Air Max 2017 849559-401'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-air-max-2017-849559-401' title='Nike Air Max 2017 849559-401'>Nike Air Max 2017 849559-401</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[17] = "<a href='/nike-flex-trainer-7-reflect-921705-400' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/00.jpg?v=1537810928410' alt='Nike Flex Trainer 7 Reflect - 921705 - 400'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-flex-trainer-7-reflect-921705-400' title='Nike Flex Trainer 7 Reflect - 921705 - 400'>Nike Flex Trainer 7 Reflect - 921705 - 400</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[18] = "<a href='/nike-free-tr-7-reflect-aa2238-100' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/01.jpg?v=1537810923537' alt='Nike Free TR 7 Reflect AA2238-100'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-free-tr-7-reflect-aa2238-100' title='Nike Free TR 7 Reflect AA2238-100'>Nike Free TR 7 Reflect AA2238-100</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[19] = "<a href='/nike-flex-control-898459-004' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/02.jpg?v=1537810916463' alt='Nike Flex Control - 898459 - 004'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-flex-control-898459-004' title='Nike Flex Control - 898459 - 004'>Nike Flex Control - 898459 - 004</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[20] = "<a href='/nike-air-zoom-train-complate-2-922475-001' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/00b74df1f9be464162967c5a697b67.jpg?v=1537810916100' alt='Nike Air Zoom Train Complate 2-922475-001'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-air-zoom-train-complate-2-922475-001' title='Nike Air Zoom Train Complate 2-922475-001'>Nike Air Zoom Train Complate 2-922475-001</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        $('.jas-sale-pop').removeClass('hidden');
-        collection[21] = "<a href='/nike-air-zoom-pegasus-34-880555-006' class='jas-sale-pop-img mr__20'>" + "<img src='//bizweb.dktcdn.net/thumb/small/100/333/279/products/0000014e0762cfcdf94b30835f7457.jpg?v=1537810909963' alt='Nike Air Zoom Pegasus 34 - 880555-006'/>" + "</a>" + "<div class='jas-sale-pop-content'>" + "<h3 class='mg__0 mt__5 mb__5 fs__18'>" + "<a href='/nike-air-zoom-pegasus-34-880555-006' title='Nike Air Zoom Pegasus 34 - 880555-006'>Nike Air Zoom Pegasus 34 - 880555-006</a>" + "</h3>" + "<span class='fs__12 jas-sale-pop-timeago'></span>" + "</div>" + "<span class='pe-7s-close pa fs__20'></span>";
-
-        fisherYates(collection);
-
-        function SalesPop() {
-            if ($('.jas-sale-pop').length < 0)
-                return;
-            setInterval(function () {
-                $('.jas-sale-pop').fadeIn(function () {
-                    $(this).removeClass('slideUp');
-                }).delay(10000).fadeIn(function () {
-                    var randomTime = ['1 phút', '2 phút', '3 phút', '4 phút', '5 phút', '6 phút', '7 phút', '8 phút', '9 phút', '10 phút', '11 phút', '12 phút', '13 phút', '14 phút', '15 phút', '16 phút', '17 phút', '18 phút', '19 phút', '20 phút', '21 phút', '22 phút', '23 phút', '24 phút', '25 phút', '26 phút', '27 phút', '28 phút', '29 phút', '30 phút', '31 phút', '32 phút', '33 phút', '34 phút', '35 phút', '36 phút', '37 phút', '38 phút', '39 phút', '40 phút', '41 phút', '42 phút', '43 phút', '44 phút', '45 phút', '46 phút', '47 phút', '48 phút', '49 phút', '50 phút', '51 phút', '52 phút', '53 phút', '54 phút', '55 phút', '56 phút', '57 phút', '58 phút', '59 phút',],
-                        randomTimeAgo = Math.floor(Math.random() * randomTime.length),
-                        randomProduct = Math.floor(Math.random() * collection.length),
-                        randomShowP = collection[randomProduct],
-                        TimeAgo = randomTime[randomTimeAgo];
-                    $(".jas-sale-pop").html(randomShowP);
-                    $('.jas-sale-pop-timeago').text('Một khách hàng vừa đặt mua cách đây ' + TimeAgo);
-                    $(this).addClass('slideUp');
-                    $('.pe-7s-close').on('click', function () {
-                        $('.jas-sale-pop').remove();
-                    });
-                }).delay(6000);
-            }, 6000);
-        }
-    </script>
+    <script src="js/commom.js"></script>
 </body>
 </html>
