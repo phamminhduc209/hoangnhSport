@@ -19,12 +19,6 @@
         }
     }
 
-    setTimeout(function () {
-        $('.mega-content > ul').masonry({
-            itemSelector: '.mega-item'
-        });
-    }, 500);
-
     var collection = new Array();
 
     $('.jas-sale-pop').removeClass('hidden');
